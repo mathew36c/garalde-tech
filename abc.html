@@ -81,12 +81,20 @@
         
     </style>
 
-    <script>     
+   <script>     
+
+        //Basic Sounds
+        function randomLetter() {
+          var values = ["m","s","a","ē","t","r","d","i","ā","e","b"],
+              valueToUse = values[Math.floor(Math.random() * values.length)];
+              document.getElementById("single").innerHTML = valueToUse;
+        }
+        /* Complete Sounds
         function randomLetter() {
         var values = ["m","s","a","ē","t","r","d","i","th","c","o","n","f","u","l","w","g","I","sh","ā","h","k","ō","v","p","ar","ch","e","b","ing","y","er","oo","J","wh","ȳ","ū","qu","x","z","ea","ai","ou"],
             valueToUse = values[Math.floor(Math.random() * values.length)];
             document.getElementById("single").innerHTML = valueToUse;
-        }
+        }*/
     </script>
 
   </head>
